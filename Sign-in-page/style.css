@@ -1,0 +1,55 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+/* css variables */
+
+:root {
+    --white-ccolor: hsl(0, 0%, 100%);
+    --black-color: hsl(0, o%, 0%);
+
+    /* typography and fornts  */
+    --body-font: "poppins", sans-serif;
+    --h1-font-size: 2rem;
+    --normal-fint-size: 1rem;
+    --small-font-size: 0.813rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body, input, button {
+    font-family: var(--body-font);
+    font-size: var(--body-font);
+    background-color: rgba(33, 53, 187, 0.644);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* login Form  */
+
+.login {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_title {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    margin-bottom: 1.25rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.login_inputs, .login_box {
+    display: grid;
+}
+
